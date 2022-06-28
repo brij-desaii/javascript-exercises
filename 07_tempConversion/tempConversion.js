@@ -1,8 +1,10 @@
-const ftoc = function() {
-
+const ftoc = function(f) {
+  c = (5/9)*(f-32);
+  c = parseFloat(c.toFixed(1));
+  return c;
 };
 
-const ctof = function() {
+const ctof = function(c) {
 
 };
 
